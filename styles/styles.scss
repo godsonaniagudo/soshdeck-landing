@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+@keyframes colors {
+    0% {
+        background-color: #00BBF9;
+        
+    }
+
+    50% {
+        background-color: #008E97;
+    }
+
+    100% {
+        background-color: #00BBF9;
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) { 
+    .landing {
+        background-color: #00BBF9;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: colors;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    
+        div {
+            width: 80%;
+    
+            .logo {
+                width: 100%;
+            }
+
+            p {
+                font-size: 16px;
+                text-align: justify;
+            }
+
+            .twitterIcon {
+                width: 50px;
+                height: 50x;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                margin-top: 50px;
+            }
+        }
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 769px) and (max-width: 992px) { 
+    .landing {
+        background-color: #00BBF9;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: colors;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    
+        div {
+            width: 40%;
+    
+            .logo {
+                width: 100%;
+            }
+
+            .twitterIcon {
+                width: 50px;
+                height: 50x;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                margin-top: 50px;
+            }
+        }
+    }
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 993px) and (max-width: 2000px) { 
+    .landing {
+        background-color: #00BBF9;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: colors;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    
+        div {
+            width: 40%;
+    
+            .logo {
+                width: 100%;
+            }
+
+            .twitterIcon {
+                width: 50px;
+                height: 50x;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                margin-top: 50px;
+            }
+        }
+
+        
+    }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  }
